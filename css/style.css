@@ -1,0 +1,25 @@
+body {
+	background: repeating-linear-gradient(45deg, #d0d0d0, #d0d0d0 25px, #c0c0c0 25px, #c0c0c0 50px);
+	position: relative;
+}
+
+div#main {
+	width: 300px;
+	height: 100px;
+	margin: auto;
+	position: absolute;
+	display: table;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+div#main > h1 {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 100px;
+	line-height: 100px;
+}
+
